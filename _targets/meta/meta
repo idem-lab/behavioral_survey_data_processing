@@ -1,0 +1,15 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+parse_uom_survey|function|50afa5d697b1516b
+parenty_households|function|d817ae5a6e682165
+wave_from_file|function|70b48cfb34dce75e
+parse_barometer|function|3249522b5cdd5483
+is_weekend|function|85f68268d63eb211
+remove_doh_duplicates|function|ca22f4a15fe4c685
+parse_all_uom_surveys|function|6d6f940e0cc4e23c
+parse_doh_survey|function|6d24d65d9c0c6e2e
+weekend_weight|function|044efee075496b0f
+parse_all_doh_surveys|function|b9356f1c4f0235ec
+parse_all_surveys|function|c0c476f986e10cfb
+get_hygiene_data|function|eeff4550da94399d
+hygiene_data|stem|58d6c2f5a6cfe039|e12723eaf851eb8b|6c57f3119e5501aa|-79110501||t20161.2478967677s|s171802b|171802|rds|local|vector|||32.131||
+pointless_end_target|stem|0aba8f745495b558|cb5ca02d12bef074|2c530c1562a7fbd1|2043494342||t20161.247896931s|s111b|111|rds|local|vector|||0||

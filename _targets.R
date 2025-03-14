@@ -1,15 +1,25 @@
 library(targets)
 
 tar_option_set(
-  packages = c("tibble")
+
+  packages = c(
+    "dplyr",
+    "readr",
+    "tidyr",
+    "purrr",
+    "readxl",
+    "behaviour.change.analysis"
+  )
 
 )
 
 tar_source()
 
 list(
-  tar_target(
 
+  tar_target(
+    hygiene_data,
+    get_hygiene_data()
   ),
 
   tar_target(
