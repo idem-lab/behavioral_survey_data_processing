@@ -1,5 +1,6 @@
-get_hygiene_data <- function () {
-  parse_all_surveys()  %>%
+get_hygiene_data <- function (survey_data) {
+
+  survey_data  %>%
     select(
       -starts_with("contact")
     ) %>%
