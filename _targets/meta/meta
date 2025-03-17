@@ -1,9 +1,4 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-parse_all_surveys|function|c0c476f986e10cfb|||||||||||||||
-pointless_end_target|stem|0aba8f745495b558|cb5ca02d12bef074|2c530c1562a7fbd1|2043494342||t20161.247896931s|s111b|111|rds|local|vector|||0||
-survey_data|stem|9a381a3402612957|b4375290497aa35c|6e5856855f2c75df|-903631571||t20163.9831781114s|s9616898b|9616898|rds|local|vector|||30.519||
-contact_data|stem|3c7dedf0539b1038|62fb96c5cb609544|f7054edce4b09cf1|-1035804904||t20163.9841606094s|s6112829b|6112829|rds|local|vector|||0.16||
-hygiene_data|stem|58d6c2f5a6cfe039|ab662999010ac7ae|c67759b224963e63|-79110501||t20163.9841775931s|s171802b|171802|rds|local|vector|||1.417||
 abbreviate_states|function|4c70a85439302256
 yesno_to_logical|function|8a71246d789714ee
 parenty_households|function|d817ae5a6e682165
@@ -19,5 +14,9 @@ weekend_weight|function|044efee075496b0f
 parse_all_uom_surveys|function|872756a48940f155
 parse_all_doh_surveys|function|9791ff767e0ff97a
 get_survey_data|function|d8c9ea636ae76977
-save_contacts|stem|3c7dedf0539b1038|08e517542cb18bec|0d9afc313192ad4e|-1838991916||t20163.9946561764s|s6112829b|6112829|rds|local|vector|||0.403||
-save_hygiene|stem|58d6c2f5a6cfe039|b9826a960f87f241|720f45371c80b993|41934516||t20163.9946575673s|s171802b|171802|rds|local|vector|||0.073||
+survey_data|stem|9a381a3402612957|b4375290497aa35c|6e5856855f2c75df|-903631571||t20164.0090039108s|s9616898b|9616898|rds|local|vector|||30.7||
+pointless_end_target|stem|0aba8f745495b558|cb5ca02d12bef074|2c530c1562a7fbd1|2043494342||t20164.0090040453s|s111b|111|rds|local|vector|||0||
+contact_data|stem|3c7dedf0539b1038|62fb96c5cb609544|f7054edce4b09cf1|-1035804904||t20164.0090242031s|s6112829b|6112829|rds|local|vector|||0.115||
+hygiene_data|stem|58d6c2f5a6cfe039|ab662999010ac7ae|c67759b224963e63|-79110501||t20164.0090403533s|s171802b|171802|rds|local|vector|||1.36||
+save_contacts|stem|3c7dedf0539b1038|69acfbfa4204b078|0d9afc313192ad4e|-1838991916||t20164.0090627875s|s6112829b|6112829|rds|local|vector|||0.309||
+save_hygiene|stem|58d6c2f5a6cfe039|b9826a960f87f241|720f45371c80b993|41934516||t20164.0090636178s|s171802b|171802|rds|local|vector|||0.037||

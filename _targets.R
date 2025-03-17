@@ -44,7 +44,7 @@ list(
     save_contacts,
     write_csv(
       x = contact_data,
-      file = "outputs/contcact_data.csv"
+      file = "outputs/contact_data.csv"
     )
   ),
 
